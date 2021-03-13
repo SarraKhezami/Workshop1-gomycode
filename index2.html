@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Go shop ! </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/Style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"> <img src="res/root-1151254_960_720.png" alt="tree" width="50px" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index1.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Contacts</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Nos services et produits
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item" href="index3.html">Nos produits</a>
+
+          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="index3.html"><img src="res/shopping-cart-151685_960_720.png" width="50px" height="50px"
+              alt="shop"></a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <img class="d-block w-100" src="res/deco-jardin.jpg"  width="100%" >
+
+  <div class="row">
+    <div class="col-lg-6 col-md-12 " id="contact">
+
+      <h2>Contactez-nous!</h2>
+      <div id="error_message"></div>
+      <form id="myform" onsubmit="return validation()">
+        <div class="input_field">
+          <input type="text" placeholder="Nom" id="name">
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Sujet" id="subject">
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Telephone" id="phone">
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Email" id="email">
+        </div>
+        <div class="input_field">
+          <textarea id="message" placeholder="Message"> </textarea>
+        </div>
+        <div class="btnn">
+          <input type="submit">
+        </div>
+      </form>
+
+    </div>
+    <div class="col-lg-6 col-md-12 ">
+      <iframe width="600" height="300" src="https://www.youtube.com/embed/pEE00Fol4uQ" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <footer>
+    <p class="color-white">Mon jardin Copyright© 2021. All right reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

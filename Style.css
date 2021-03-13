@@ -1,0 +1,66 @@
+.bg-light {
+    background-color: #365731!important;      color: #ffffff!important;
+    font-size: 18px;
+}
+a {color: #ffffff!important;}
+.dropdown-item{color: #161414!important;}
+ul{width:70%; display: flex; justify-content: space-evenly;align-items: center;}
+
+.mainly{width: 100%;display: flex; justify-content: center;}
+.carousel-item{width: 100%!important;height: 100%!important;}
+.w-100{width: 100%!important;height: 100%!important;}
+.apropos{display: flex; justify-content: center; padding: 3%; flex-direction: column;background-color: rgb(248, 248, 244);margin-top: 5px;margin-bottom: 5px;}
+.apropos h3{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.42857;
+    color: #7b593e;
+}
+
+.apropos p{
+ 
+     color: #777777;font-size: 1.5em;
+}
+footer{ display:flex;background-color: #365731; color: rgb(255, 255, 255);justify-content: center;padding: 3px;align-items: center;}
+#contact { margin: 0px;padding: 25px;display: flex;flex-direction: column;justify-content: center;}
+#contact h2{text-align: center; color: rgb(150, 115, 52);font-family: 'Times New Roman', Times, serif;}
+.input_field{margin-bottom: 10px;justify-self: center; width: 100%;}
+#contact textarea{ width: 80%;height: 100px;border: 1px solid;resize: none;}
+#contact .btnn input[type="submit"]{border: 0;margin-top: 15px;padding: 10px;background-color: rgb(253, 206, 136);color: rgb(248, 247, 245);border-radius: 25px;width: 150px!important;cursor: pointer;}
+#contact #error_message{margin-bottom: 20px;padding: 0px;background-color:rgb(228, 147, 147) ;text-align: center;font-size: 14px;
+    transition:all 0.5s ease}
+    iframe{padding: 5%;}
+    input{width: 80%;}
+    .container {width: 80%; display: flex; justify-content: center;}
+
+.lead {
+    align-self: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.card{margin: 3%;}
+.card-title {
+    margin-bottom: .75rem;
+    color: #747474;;
+}
+#carte p{margin-top: 20px;margin-left: 0px;
+
+text-align: center;
+color: #9e4d4d;
+font: normal normal normal 25px/1.34em cormorantgaramond-light,cormorantgaramond,"cormorant garamond",serif;}
+h3{margin: 10%;font-size: 1rem;
+
+    text-align: center;
+    color: #9e4d4d;
+    font: normal normal normal 25px/1.34em cormorantgaramond-light,cormorantgaramond,"cormorant garamond",serif;}
+    .row{width: 100%;}
+
+ 
+ #carte p{color: white;}
+ div.shop{display: flex;justify-content: space-between;width: 100%; align-items: center}
+ .ShoppingCarte{margin: 10%;}
+ .bouton{width: 25px;height: 25px; }
+.totalprix{display: flex;justify-content: center;justify-items: center;margin-top: 0px;}
+.suprim{color: rgb(233, 223, 223);width: 25px;height: 25px;text-align: center;background-color: red;}
+ 
